@@ -8,14 +8,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="containerDesing"></div>
+    
+<div class="containerDesing">
 <form action="insertPlato.php" method="post"></br></br>
     Título <input type="text" name="titulo"></br></br>
     Número Comensales <input type="text" name="numero_comensales"></br></br>
     Tipo Plato <input type="text" name="tipo_plato"></br></br>
     Precio <input type="text" name="precio"></br></br>
-    <button>Insertar</button>    
+    <button>Insertar</button></br></br>
 </form>
+</div>
     
 </body>
 </html>

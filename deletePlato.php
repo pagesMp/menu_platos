@@ -2,7 +2,7 @@
     require_once 'connection.php';
     try {
 
-        $query = "DELETE FROM platos WHERE titulo = '" . $_GET['titulo'] ."'";
+        $query = "DELETE FROM platos WHERE idplatos = '" . $_GET['idplatos'] ."'";
     
         $connection->exec($query);
         echo "plato eliminado";

@@ -1,6 +1,10 @@
+body{
+
+    height: 100vh;
+
+}
+
 .containerDesing{
-
-    background-color: black;
-    
-
+    background-color: rgba(203, 186, 165, 0.512);
+    border-radius: 1em;
 }
